@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.parent{
+    border: 1px solid gray;
+    display: grid;
+    grid-template: 100px auto 100px / 10% 90%;
+    height: 100vh;
+}
+header{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    gap: 50px;
+    color: blue;
+    border: 3px solid gray;
+}
+aside{
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+.links{
+    display: flex;
+    align-items: center;
+justify-content: center;
+border: 3px solid gray;
+
+   
+}
+
+.link .links{
+    flex-grow: 1;
+}
+
+
+a:hover{
+    color: coral;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+font-family: Arial, Helvetica, sans-serif;    
+   font-weight:bold;
+   font-size: larger;
+
+}
+
+main{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: green;
+}
+
+
+
+
+
+footer{
+    grid-column: 1/-1;
+    border: 3px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-weight: bold;
+    font-size:x-large
+
+}
+
+.parts{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.part1{
+    padding:30px;
+
+}
+
+.part2{
+    padding: 20px;
+}
+img{
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    top: 100px;
+    margin-left: 30px;
+}
